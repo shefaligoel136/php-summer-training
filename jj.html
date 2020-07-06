@@ -1,0 +1,25 @@
+<?php
+                $a= $_POST["review1"];
+				$b= $_POST["LAST_NAME"];
+                $c= mysqli_connect("localhost","root","","firdatabase");
+                $d= "INSERT INTO reviewit(reviews) VALUES('$a')";
+                $e= mysqli_query($c,$d);// gets store in a query $c- connection $d- asked query
+				$f= "select * from signin where LAST_NAME='$b'";
+				echo "$a";
+				 //$done= "select * from reviewit where reviews='$a'";
+				 //$con1= mysqli_query($c,$done);
+                echo "$b"; 
+				
+		         ?>	
+				 <td>
+            <div class="boxStyle1">
+                <img src="download.png" height="70px" width="70px" style="border-radius:100%;">
+                <bold style="color:#20B2AA ; font-size:25px"> 
+				
+				</bold>
+                <p style="color:grey"> 
+				
+				
+				</p>
+            </div>
+        </td>

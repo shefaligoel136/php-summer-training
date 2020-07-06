@@ -1,0 +1,33 @@
+<html>
+<head>
+  <script src="jquery-3.3.1.min.js">
+  </script>
+<style>
+</style>
+   <script>
+   function hello()
+   {
+     var a=$("#name").val();
+	 var b=$("#password").val();
+	 if(a=="")
+	 {
+	   alert("name cannot be bank");
+	   return false;
+	 }
+	 else if(b=="")
+	 {
+	   alert("password cannot be blank");
+	   return false;
+	 }
+	}
+   
+   </script>
+  </head>
+  <body>
+  <form action="check.php" onsubmit="return hello();">
+  <input type="text" id="name">
+  <input type="password" id="password">
+  <input type="submit" value="log in">
+  </form>
+  </body>
+  <html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+  <script src="jquery-3.3.1.min.js">
+  </script>
+<style>
+  #ab
+   {
+     height:100px;
+	 width:200px;
+	 border:2px dotted black;
+	 background-color:aqua;
+   }
+   #ac
+   {
+     height:500px;
+	 width:200px;
+	 border:2px dotted black;
+	 background-color:pink;
+	position:absolute;
+	 
+   }
+     #ad
+   {
+     height:700px;
+	 width:100px;
+	 border:2px dotted black;
+	 background-color:green;
+   }
+ </style>
+   <script>//syntax of jquery $(document).ready(function(){});
+      $(document).ready(function(){
+	  //$("#ab").click(function(){
+	 // $("#ac").fadeOut(2000);
+     // $("#ab").click(function(){
+	 // $("#ac").fadeIn(1000); 
+	 $("#ab").mouseover(function(){
+	//$("#ac").animate({left:'120px', opacity:'0.5',height:'+=120px', width:'+=120px'}); 
+	//$("#ab").mouseout(function(){
+	$("#ac").animate({left:'120px', opacity:'0.5',height:'+=120px', width:'+=120px'}); 
+/*$("#ab").click(function(){
+$("#ac").slideUp(3000);
+$("#ad").click(function(){
+$("#ac").stop();
+$("#ab").click(function(){
+$("#ac").slideDown(3000);
+});
+      });
+	  });
+	  });*/
+	 /* $(document).ready(function(){
+	  $("#ab").click(function(){
+	  $("#ac").slideUp(3000).slideDown().fadeIn().fadeOut();
+	  });
+	  });*/
+	  //$(document).ready(function(){
+	  //$("#ab").click(function(){
+	 //$("#ac").append("<button>SignUp</button>");
+	 //$("#ac").prepend("<button>SignUp</button>");
+	 //$("#ac").slideToggle(3000);
+	 //$("#ac").remove();
+	 //$("#ac").css({"background-color":"orange","color":"blue","font-size":"50px","height":"200px"});
+	// $("#ac").html('<button>SignUp</button>,<p><b>asus</b></p>');
+	   });
+	  });
+ </script>
+ </head>
+ <body>
+ <div id="ab"><br><br><b>MENU</b></div>
+ <div id="ac">shefali goel</div>
+ <div id="ad"></div>
+ </body>
+ <html>
+    
+	 
