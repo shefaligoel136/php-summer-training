@@ -1,0 +1,40 @@
+first checkform code:
+<?php
+session_start();
+if(empty($_SESSION['qwerty']))
+{
+?>
+<?php// at last
+}
+
+
+
+testit.php
+if cond true: 
+SESSION_START();
+	$_SESSION['qwerty']=$a;
+	
+	
+	
+	
+	checkit.php
+	
+	<?php
+SESSION_START();
+if(empty($_SESSION['qwerty']))
+{
+	header("location:checkform.php");
+}
+else
+{
+	?>// all before<html>
+-------------	
+	
+	<?php echo $_SESSION['qwerty']?>// after h1
+---------------------
+<a href="m4.php">logout</a>
+-------------------------	
+	<?php
+}
+?>//after </html>
+-------------------

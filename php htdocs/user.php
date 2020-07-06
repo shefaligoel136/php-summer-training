@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .table1
+       {
+         color: #008080;
+       }
+       ul
+       {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color:#008080;
+      }
+
+li {
+    float: left;
+    color:
+
+   }
+
+li a {
+    display: block;
+    color:#008080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:25px;
+}
+
+li a:hover:not(.active) {
+    color: #5F9EA0;
+}
+
+.active {
+   color: #20B2AA;
+}
+#A
+{
+width:"10%";
+height:"10%";
+background-color:"green";
+}
+ </style>
+</head>
+<body>
+<table class="table1">
+    <tr>
+        <td>
+    <img src="indian_police_300.jpg" height="100px" width="100px">
+        </td>
+        <td>
+            <b>Online<br><span style="font-size:40px;">FIR</span></b>
+        </td>
+        <td>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        </td>
+
+        <td style="color:silver;">
+            <br>
+            Simpliest way to file a FIR in India.
+        </td>
+        <td>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        </td>
+        <td>
+            <ul>
+               <li><a  href="home page.php">Home</a></li>
+                <li><a  href="about fir page2.html">About FIR</a></li>
+                <li><a href="my FIR's page3.html">My FIR's</a></li>
+                <li><a  href="admin login page.html">Admin</a></li>
+                <li><a class="active" href="user.php">Login/Sign</a></li>
+                <li><a  href="frequently asked question page last.html">FAQ</a></li>
+				<li><a href="team.html">TEAM</a></li>
+            </ul>
+        </td>
+    </tr>
+	</table>
+<hr>
+<form action="testfir.php" method="POST">
+	<table bgcolor="#008080" height="20%" width="100%"style="color:white;">
+<tr>
+<td>
+<font size="7" face="copper" color="WHITE">User Login Form</font></td>
+<td>
+E-mail or Phone<br><input type="text" name="name">
+</td>
+<td> Password<br><input type="password" name="pass">
+<input type= "submit" value="LOGIN"></input></td>
+</tr>
+</table>
+</form>
+ <table cellspacing="20" width="100%">
+<tr>
+ <th align="center">
+ <h1 style="color:#008080;">SignUp Form</h1>
+<h2 style="color:#008080;"> Create an account</h2>
+</table>
+<form action="signinfir.php" method="POST">
+<table style="height:480px; width:500px; border:3px solid #008080; margin-left:430px;">
+<tr>
+<td>
+     <span style="color:#008080;"> 1. FIRST NAME</span>
+</td>
+<td>
+     <input type="text" placeholder="MEHERE" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="FIRST_NAME">
+</td>
+</tr>
+<tr>
+<td>
+    <span style="color:#008080;"> <form action="home page.php" method="POST" > 2. LAST NAME</span>
+</td>
+<td>
+     <input type="text" placeholder="GUPTA" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="LAST_NAME">
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#008080;"> 3. EMAIL-ADDRESS</span>
+</td>
+<td>
+<input type="text" placeholder="MEHERGUPTA123@gmail.com" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="EMAIL">
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#008080;"> 4. NEW PASSWORD</span>
+</td>
+<td>
+<input type="password" placeholder="12345678" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="PASSWORD">
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#008080;"> 5. PHONE NO.</span>
+</td>
+<td>
+<input type="text" placeholder="+91 1234567891" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="PHONE_NO">
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#008080;"> 6. AADHAR NMUBER</span>
+</td>
+<td>
+<input type="text" placeholder="11223344" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="AADHAR">
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#008080;"> 7. ADDRESS</span>
+</td>
+<td>
+<input type="text" placeholder="palam vihar , new delhi" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="ADDRESS">
+</td>
+</tr>
+<tr>
+<td>
+<span style="color:#008080;"> 8. PINCODE</span>
+</td>
+<td>
+<input type="text" placeholder="208001" style="border:1px solid #008080; height:30px; width:200px; text-align:center;" name="PINCODE">
+</td>
+</tr>
+<tr>
+<td>
+<input type="radio">Male <input type="radio">Female <input type="radio">Others
+</td>
+<td>
+<input type="submit" value="SIGNIN" style="color:white; background-color:#008080;">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</head>
+</html>
+  

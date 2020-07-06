@@ -1,0 +1,538 @@
+<html>
+<head><title>fillcomplainform</title>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+	
+      .table1
+       {
+         color: #008080;
+       }
+       ul
+       {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color:#008080;
+      }
+
+li {
+    float: left;
+    color:
+
+   }
+
+li a {
+    display: block;
+    color:#008080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:25px;
+}
+
+li a:hover:not(.active) {
+    color: #5F9EA0;
+}
+
+.active {
+   color: #20B2AA;
+}
+ </style>
+<body>
+<table class="table1">
+    <tr>
+        <td>
+    <img src="indian_police_300.jpg" height="100px" width="100px">
+        </td>
+        <td>
+            <b>Online<br><span style="font-size:40px;">FIR</span></b>
+        </td>
+        <td>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        </td>
+
+        <td style="color:silver;">
+            <br>
+            Simpliest way to file a FIR in India.
+        </td>
+        <td>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        </td>
+        <td>
+            <ul>
+                <li><a  href="home page.php">Home</a></li>
+                <li><a href="about fir page2.html">About FIR</a></li>
+                <li><a href="my FIR's page3.html">My FIR's</a></li>
+                <li><a href="admin login page.html">Admin</a></li>
+                <li><a class="active" href="user.php">Login\Sign-in</a></li>
+                
+                <li><a href="frequently asked question page last.html">FAQ</a></li>
+				<li><a href="team.html">TEAM</a></li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<hr></hr>
+</body>
+<table id="Table2" style="bordercolor:aliceblue;" cellspacing="0" bordercolordark="aliceblue" cellpadding="0" align="center" bordercolorlight="aliceblue" border="0">
+				<tbody><tr>
+					<td align="left">
+						<img id="Image1" src="C:\Users\hp\Documents\Downloads\work\titleimage.jpg" style="height:84px;width:75px;border-width:0px;"></td>
+					<td colspan="5">
+						<font face="Arial" size="5" color="midnightblue"><u><strong>Online Complaint Registration 
+									Form.</strong></u></font>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" colspan="4"><font face="Arial">Kindly enter the details of your 
+							complaint.</font></td>
+					<td colspan="2" align="right">
+						<a id="hlGuidelines" href="http://nhrc.nic.in/hrcomplaint/pub/Guide.htm" target="_blank" style="font-family:Arial;">Operational Guidelines</a></td>
+				</tr>
+				<tr>
+					<td bgcolor="#008080" colspan="6"><font face="Arial" color="white" size="4"><strong><u>Your 
+									details</u></strong></font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">Name</font></td>
+					<td style="WIDTH: 437px" colspan="3"><input name="txt_Complainant_Name" type="text" id="txt_Complainant_Name" style="width:380px;">
+                        <span id="RequiredFieldValidator1" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td><font face="Arial"><font face="Arial">Sex</font></font></td>
+					<td><select name="cbo_Comp_Type" id="cbo_Comp_Type">
+	<option value="M">[Select Sex]</option>
+	<option value="S">MALE</option>
+	<option value="F">FEMALE</option>
+	<option value="O">ORGANISATION</option>
+	<option value="G">GROUP</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td style="HEIGHT: 22px" valign="top"><font face="Arial">Address</font></td>
+					<td style="WIDTH: 437px; HEIGHT: 22px" colspan="3"><textarea name="txt_Complainant_Address" rows="2" cols="20" id="txt_Complainant_Address" style="height:60px;width:380px;"></textarea>
+                        <span id="RequiredFieldValidator2" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					
+					<td style="HEIGHT: 22px" colspan="2">
+						<p></p>
+					</td>
+				</tr>
+				<tr>
+					<td style="HEIGHT: 27px"><font face="Arial">State</font>
+					</td>
+					<td class="style1"><select name="cbo_Complainant_State" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cbo_Complainant_State\&#39;,\&#39;\&#39;)&#39;, 0)" id="cbo_Complainant_State" style="width:155px;">
+	<option selected="selected" value="0">[Select State]                </option>
+	<option value="90">ALL OVER INDIA                </option>
+	<option value="26">ANDAMAN &amp; NICOBAR             </option>
+	<option value="1">ANDHRA PRADESH                </option>
+	<option value="2">ARUNACHAL PRADESH             </option>
+	<option value="3">ASSAM                         </option>
+	<option value="4">BIHAR                         </option>
+	<option value="27">CHANDIGARH                    </option>
+	<option value="33">CHHATTISGARH                  </option>
+	<option value="28">DADRA &amp; NAGAR HAVELI          </option>
+	<option value="29">DAMAN &amp; DIU                   </option>
+	<option value="30">DELHI                         </option>
+	<option value="99">FOREIGN COUNTRIES             </option>
+	<option value="5">GOA                           </option>
+	<option value="6">GUJARAT                       </option>
+	<option value="7">HARYANA                       </option>
+	<option value="8">HIMACHAL PRADESH              </option>
+	<option value="9">JAMMU &amp; KASHMIR               </option>
+	<option value="34">JHARKHAND                     </option>
+	<option value="10">KARNATAKA                     </option>
+	<option value="11">KERALA                        </option>
+	<option value="31">LAKSHADWEEP                   </option>
+	<option value="12">MADHYA PRADESH                </option>
+	<option value="13">MAHARASHTRA                   </option>
+	<option value="14">MANIPUR                       </option>
+	<option value="15">MEGHALAYA                     </option>
+	<option value="16">MIZORAM                       </option>
+	<option value="17">NAGALAND                      </option>
+	<option value="18">ODISHA                        </option>
+	<option value="32">PUDUCHERRY                    </option>
+	<option value="19">PUNJAB                        </option>
+	<option value="20">RAJASTHAN                     </option>
+	<option value="21">SIKKIM                        </option>
+	<option value="22">TAMIL NADU                    </option>
+	<option value="36">TELANGANA                     </option>
+	<option value="23">TRIPURA                       </option>
+	<option value="24">UTTAR PRADESH                 </option>
+	<option value="35">UTTARAKHAND                   </option>
+	<option value="25">WEST BENGAL                   </option>
+
+</select>
+                        <span id="RequiredFieldValidator5" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td style="WIDTH: 46px; HEIGHT: 27px"><font face="Arial">PIN</font></td>
+					<td style="WIDTH: 140px; HEIGHT: 27px"><input name="txt_Complainant_PIN" type="text" maxlength="6" id="txt_Complainant_PIN" style="height:25px;width:120px;">
+                        <span id="RegularExpressionValidator1" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td style="HEIGHT: 27px"><font face="Arial"></font></td>
+					<td style="HEIGHT: 27px"></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">District </font>
+					</td>
+					<td class="style2"><select name="cbo_Complainant_District" id="cbo_Complainant_District" style="width:154px;">
+	<option value="0">[Select District]        </option>
+
+</select>
+                        <span id="RequiredFieldValidator6" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td style="WIDTH: 46px"></td>
+					<td style="WIDTH: 140px"></td>
+					<td><font face="Arial"></font></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">E-Mail</font></td>
+					<td class="style2"><input name="txt_Complainant_Email" type="text" id="txt_Complainant_Email" style="height:25px;width:188px;">
+                        <span id="RegularExpressionValidator2" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td style="WIDTH: 46px"><font face="Arial">Mobile</font></td>
+					<td style="WIDTH: 140px"><input name="txt_Complainant_Mob" type="text" value="0" maxlength="11" id="txt_Complainant_Mob" style="height:25px;width:120px;">
+                        <span id="RegularExpressionValidator3" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="style2"></td>
+					<td style="WIDTH: 46px"></td>
+					<td style="WIDTH: 140px"></td>
+					<td></td>
+					<td><span style="font-family:Arial;font-weight:bold;"><input id="ckb_Self" type="checkbox" name="ckb_Self" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ckb_Self\&#39;,\&#39;\&#39;)&#39;, 0)"><label for="ckb_Self">Self</label></span></td>
+				</tr>
+				<tr>
+					<td bgcolor="#008080" colspan="6"><font face="Arial" color="white" size="4"><strong><u>Victim's 
+									details</u></strong></font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">Name</font></td>
+					<td style="WIDTH: 437px" colspan="3"><input name="txt_Victim_Name" type="text" id="txt_Victim_Name" style="width:379px;">
+                        <span id="RequiredFieldValidator3" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td style="WIDTH: 46px">&nbsp;</td>
+					<td>
+						
+                    </td>
+				</tr>
+				<tr>
+					<td style="WIDTH: 58px; HEIGHT: 42px"><font face="Arial">Address</font></td>
+					<td style="WIDTH: 437px; HEIGHT: 42px" colspan="3"><textarea name="txt_Victim_Address" rows="2" cols="20" id="txt_Victim_Address" style="height:60px;width:379px;"></textarea>
+                        <span id="RequiredFieldValidator4" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td style="WIDTH: 90px; HEIGHT: 42px" colspan="2"></td>
+				</tr>
+				<tr>
+					<td style="WIDTH: 58px; HEIGHT: 19px"><font face="Arial">State</font></td>
+					<td class="style3"><select name="cbo_Victim_State" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cbo_Victim_State\&#39;,\&#39;\&#39;)&#39;, 0)" id="cbo_Victim_State" style="width:155px;">
+	<option selected="selected" value="0">[Select State]                </option>
+	<option value="90">ALL OVER INDIA                </option>
+	<option value="26">ANDAMAN &amp; NICOBAR             </option>
+	<option value="1">ANDHRA PRADESH                </option>
+	<option value="2">ARUNACHAL PRADESH             </option>
+	<option value="3">ASSAM                         </option>
+	<option value="4">BIHAR                         </option>
+	<option value="27">CHANDIGARH                    </option>
+	<option value="33">CHHATTISGARH                  </option>
+	<option value="28">DADRA &amp; NAGAR HAVELI          </option>
+	<option value="29">DAMAN &amp; DIU                   </option>
+	<option value="30">DELHI                         </option>
+	<option value="99">FOREIGN COUNTRIES             </option>
+	<option value="5">GOA                           </option>
+	<option value="6">GUJARAT                       </option>
+	<option value="7">HARYANA                       </option>
+	<option value="8">HIMACHAL PRADESH              </option>
+	<option value="9">JAMMU &amp; KASHMIR               </option>
+	<option value="34">JHARKHAND                     </option>
+	<option value="10">KARNATAKA                     </option>
+	<option value="11">KERALA                        </option>
+	<option value="31">LAKSHADWEEP                   </option>
+	<option value="12">MADHYA PRADESH                </option>
+	<option value="13">MAHARASHTRA                   </option>
+	<option value="14">MANIPUR                       </option>
+	<option value="15">MEGHALAYA                     </option>
+	<option value="16">MIZORAM                       </option>
+	<option value="17">NAGALAND                      </option>
+	<option value="18">ODISHA                        </option>
+	<option value="32">PUDUCHERRY                    </option>
+	<option value="19">PUNJAB                        </option>
+	<option value="20">RAJASTHAN                     </option>
+	<option value="21">SIKKIM                        </option>
+	<option value="22">TAMIL NADU                    </option>
+	<option value="36">TELANGANA                     </option>
+	<option value="23">TRIPURA                       </option>
+	<option value="24">UTTAR PRADESH                 </option>
+	<option value="35">UTTARAKHAND                   </option>
+	<option value="25">WEST BENGAL                   </option>
+
+</select></td>
+					<td style="WIDTH: 46px; HEIGHT: 19px"><font face="Arial">Sex</font></td>
+					<td style="WIDTH: 140px; HEIGHT: 19px">
+						<select name="dlVicSex" id="dlVicSex">
+	<option value="M">[Select Sex]</option>
+	<option value="S">MALE</option>
+	<option value="F">FEMALE</option>
+	<option value="G">GROUP</option>
+
+</select></td>
+					<td><font face="Arial">Religion</font></td>
+					<td><select name="cbo_Victim_Religion" id="cbo_Victim_Religion" style="width:82px;">
+	<option value="BD">Bodha</option>
+	<option value="CH">Christian</option>
+	<option value="HN">Hindu</option>
+	<option value="MU">Muslim</option>
+	<option value="SK">Sikh</option>
+	<option value="UN">Unknown</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">District</font></td>
+					<td class="style2"><select name="cbo_Victim_District" id="cbo_Victim_District" style="width:154px;">
+	<option value="0">[Select District]        </option>
+
+</select></td>
+					<td><font face="Arial">Disability</font></td>
+					<td>
+						<select name="dlVicDisability" id="dlVicDisability">
+	<option value="S">[Select Disability]</option>
+	<option value="N">NO</option>
+	<option value="Y">YES</option>
+
+</select></td>
+					<td><font face="Arial">Caste</font></td>
+					<td><select name="cbo_Victim_Caste" id="cbo_Victim_Caste" style="width:83px;">
+	<option value="GN">General</option>
+	<option value="OBC">Other Backward Class</option>
+	<option value="SC">Scheduled Caste</option>
+	<option value="ST">Scheduled Tribe</option>
+	<option value="UN">Unknown</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">PIN</font></td>
+					<td class="style2"><input name="txt_Victim_PIN" type="text" id="txt_Victim_PIN" style="height:22px;width:120px;">
+                        <span id="RegularExpressionValidator4" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td><font face="Arial">Age</font></td>
+					<td><input name="txt_Victim_Age" type="text" id="txt_Victim_Age" style="width:27px;">
+                        <span id="RequiredFieldValidator12" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td bgcolor="#008080" colspan="6"><font face="Arial" color="white" size="4"><strong><u>Incident's 
+									details</u></strong></font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">Place</font></td>
+					<td colspan="3"><input name="txt_Incident_Place" type="text" id="txt_Incident_Place" style="width:377px;">
+                        <span id="RequiredFieldValidator11" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td><font face="Arial"> State</font></td>
+					<td>
+						<select name="cbo_Incident_State" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cbo_Incident_State\&#39;,\&#39;\&#39;)&#39;, 0)" id="cbo_Incident_State" style="width:154px;">
+	<option selected="selected" value="0">[Select State]                </option>
+	<option value="90">ALL OVER INDIA                </option>
+	<option value="26">ANDAMAN &amp; NICOBAR             </option>
+	<option value="1">ANDHRA PRADESH                </option>
+	<option value="2">ARUNACHAL PRADESH             </option>
+	<option value="3">ASSAM                         </option>
+	<option value="4">BIHAR                         </option>
+	<option value="27">CHANDIGARH                    </option>
+	<option value="33">CHHATTISGARH                  </option>
+	<option value="28">DADRA &amp; NAGAR HAVELI          </option>
+	<option value="29">DAMAN &amp; DIU                   </option>
+	<option value="30">DELHI                         </option>
+	<option value="99">FOREIGN COUNTRIES             </option>
+	<option value="5">GOA                           </option>
+	<option value="6">GUJARAT                       </option>
+	<option value="7">HARYANA                       </option>
+	<option value="8">HIMACHAL PRADESH              </option>
+	<option value="9">JAMMU &amp; KASHMIR               </option>
+	<option value="34">JHARKHAND                     </option>
+	<option value="10">KARNATAKA                     </option>
+	<option value="11">KERALA                        </option>
+	<option value="31">LAKSHADWEEP                   </option>
+	<option value="12">MADHYA PRADESH                </option>
+	<option value="13">MAHARASHTRA                   </option>
+	<option value="14">MANIPUR                       </option>
+	<option value="15">MEGHALAYA                     </option>
+	<option value="16">MIZORAM                       </option>
+	<option value="17">NAGALAND                      </option>
+	<option value="18">ODISHA                        </option>
+	<option value="32">PUDUCHERRY                    </option>
+	<option value="19">PUNJAB                        </option>
+	<option value="20">RAJASTHAN                     </option>
+	<option value="21">SIKKIM                        </option>
+	<option value="22">TAMIL NADU                    </option>
+	<option value="36">TELANGANA                     </option>
+	<option value="23">TRIPURA                       </option>
+	<option value="24">UTTAR PRADESH                 </option>
+	<option value="35">UTTARAKHAND                   </option>
+	<option value="25">WEST BENGAL                   </option>
+
+</select>
+                        <span id="RequiredFieldValidator7" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+				</tr>
+				<tr>
+					<td><font face="Arial">Incident Date</font></td>
+					<td colspan="3">
+					    <input name="txt_Incident_Date" type="text" id="txt_Incident_Date" class="NormalTextBox hasDatepicker" readonly="readOnly"><img class="ui-datepicker-trigger" src="./complainform_files/SmallCalendar.gif" alt="Select date" title="Select date">
+						&nbsp;
+
+                       
+					</td>
+					<td><font face="Arial">District</font></td>
+					<td><font face="Arial" size="2">
+							<select name="cbo_Incident_District" id="cbo_Incident_District" style="width:155px;">
+	<option value="0">[Select District]        </option>
+
+</select>
+                        <span id="RequiredFieldValidator8" style="color:Red;visibility:hidden;">*</span>
+                        </font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial">Incident Category</font></td>
+					<td colspan="3">
+						<select name="cbo_Incident_Code" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;cbo_Incident_Code\&#39;,\&#39;\&#39;)&#39;, 0)" id="cbo_Incident_Code" style="width:379px;">
+	<option selected="selected" value="0">&lt;--Select Incident Category--&gt;</option>
+	<option value="100">CHILDREN</option>
+	<option value="1600">DEFENCE FORCES</option>
+	<option value="2000">FOREIGNER'S/NRI</option>
+	<option value="200">HEALTH</option>
+	<option value="300">JAIL</option>
+	<option value="400">JUDICIARY</option>
+	<option value="1800">JUVENILE/BEGGERS HOMES</option>
+	<option value="600">LABOUR</option>
+	<option value="500">MAFIAS/UNDERWORLD</option>
+	<option value="700">MINORTIES/SC/ST</option>
+	<option value="1500">MISCELLENOUS</option>
+	<option value="501">NUISANCE BY NOTORIOUS GANGS/MAFIAS</option>
+	<option value="1700">PARA-MILITARY FORCES</option>
+	<option value="800">POLICE</option>
+	<option value="900">POLLUTION/ECOLOGY/ENVIRONMENT</option>
+	<option value="1000">REFUGEES/MIGRANTS</option>
+	<option value="1100">RELIGION/COMMUNAL VOILENCE</option>
+	<option value="2100">RIOTS</option>
+	<option value="1900">SC/ST/OBC</option>
+	<option value="1200">SERVICE MATTERS</option>
+	<option value="1400">TADA</option>
+	<option value="1300">WOMEN</option>
+
+</select>
+                        <span id="RequiredFieldValidator9" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td colspan="2"><font face="Arial"><strong><font size="2">Is it filed before any Court /</font>
+							</strong><font size="2"><strong>State Human</strong> </font></font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><font face="Arial">Sub Category</font>
+					</td>
+					<td colspan="3">
+						<select name="dlIncSubCategory" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;dlIncSubCategory\&#39;,\&#39;\&#39;)&#39;, 0)" id="dlIncSubCategory" style="width:379px;">
+	<option value="0">[Select Incident Code]</option>
+
+</select></td>
+					<td colspan="2">
+						<font face="Arial" size="2"><strong>Rights Commission.?</strong> </font>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><font face="Arial"> Write Complaint</font></td>
+					<td colspan="3"><textarea name="txt_Incident_Gist" rows="2" cols="20" id="txt_Incident_Gist" style="height:60px;width:380px;"></textarea>
+                        <span id="RequiredFieldValidator10" style="color:Red;visibility:hidden;">*</span>
+                    </td>
+					<td></td>
+					<td align="left" valign="top">
+						<select name="dlSHRC" id="dlSHRC">
+	<option selected="selected" value="N">NO</option>
+	<option value="Y">YES</option>
+
+</select></td>
+				</tr>
+				<tr>
+					<td bgcolor="#008080" colspan="6"><font face="Arial" color="white" size="4"><strong><u>Relief 
+									details</u></strong></font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial"><font size="2">&nbsp;</font><font size="3">Pray / Relief sought</font></font></td>
+					<td colspan="3">
+						<textarea name="txt_Relief" rows="2" cols="20" id="txt_Relief" style="height:60px;width:380px;"></textarea></td>
+					<td><font face="Arial" size="2"><strong></strong></font></td>
+					<td valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td>
+						<p><font face="Arial">Name, Designation</font></p>
+					</td>
+					<td colspan="3">
+						<input name="txt_AuthName" type="text" id="txt_AuthName" style="width:377px;"></td>
+					<td><font face="Arial"></font></td>
+					<td valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td>
+						<p><font face="Arial"><font face="Arial">and Address&nbsp;</font></font><font face="Arial">of
+							</font>
+						</p>
+						<p><font face="Arial">the public servant</font></p>
+					</td>
+					<td colspan="3">
+						<textarea name="txt_AuthAddress" rows="2" cols="20" id="txt_AuthAddress" style="height:60px;width:379px;"></textarea></td>
+					<td></td>
+					<td valign="top" align="left"></td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;</td>
+					<td colspan="3" style="text-align: center">
+						<span id="lbl_Error" style="font-family:Arial;font-size:Smaller;font-weight:bold;"></span></td>
+					<td>&nbsp;</td>
+					<td valign="top" align="left">&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="style6"></td>
+					<td colspan="3" class="style6">
+                    </td>
+					<td class="style6"></td>
+					<td valign="top" align="left" class="style6"></td>
+				</tr>
+				<tr>
+					<td class="style5"></td>
+					<td colspan="3" class="style5" style="text-align: center">
+                                <font face="Arial">
+                                    <img id="Image2" src="./complainform_files/captcha.aspx" alt="not found" style="height:25px;width:97px;border-width:0px;">
+                                </font>
+                                <input name="txtCaptcha" type="text" id="txtCaptcha" style="height:25px;">
+                    </td>
+					<td class="style5"></td>
+					<td valign="top" align="left" class="style5"></td>
+				</tr>
+				<tr>
+					<td colspan="6">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="right" bgcolor="#008080" colspan="7" style="text-align: center">
+                        <input type="submit" name="btn_Update" value="Update" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btn_Update&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btn_Update" style="height:30px;width:98px;text-align: center">&nbsp;
+						<a href="done.html" ><input type="submit"  value="next" style="height:30px;width:98px;"></a></td>
+				</tr>
+			</tbody></table>
+</body>
+</head>
+</html>
